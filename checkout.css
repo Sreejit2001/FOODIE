@@ -1,0 +1,10 @@
+#mainbox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+}
+#hdng{
+    margin-top: 1.5rem;
+}
+

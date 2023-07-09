@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order food</title>
+  <link rel='stylesheet' href='foodpage.css'>
+
+  <!--for logo stylesheet-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--
+  
+  <script type="text/javascript">
+
+    window.history.forward();
+        function noBack() {
+            window.history.forward();
+        }
+    
+</script>
+  -->
+
+</head>
+
+<body>
+  <!--for navbar & heading-->
+  <header>
+    <div class="nav container">
+
+   <a id="logo"   role="link" aria-disabled="true" style="color:black;"><b>fOOdIe</b></a> 
+      <i id="nav-cart" class='bx bxs-cart'></i>
+      <!--cart-->
+      <div class="cart">
+        <h2 class="cart-tittle">YOUR CART</h2>
+        <div class="cart-content">
+          <!--sample cart -->
+          <div class="cart-box">
+            <img src="cutlery.png" alt="cart-img" class="cart-box-image">
+            <div class="details-box">
+              <div class="cart-item-tittle">Cutlery</div>
+              <div class="cart-item-price">0/-</div>
+              <input class="cart-quantity" type="number" value="1" min="1" max="5"></input>
+            </div>
+            <i class='bx bxs-trash-alt' id="cart-item-delete" style='color:#db120b'></i>
+          </div>
+        </div>
+        <!--total-->
+        <div class="total">
+          <div class="total-tittle">Total</div>
+          <div class="total-price">0/-</div>
+        </div>
+       <!-- <div class="payment">
+          <div class="paymentmethod">Payment - Cash On Delivery</div>
+        </div> -->
+        <!--buy button-->
+        <button type="button"   class="btn-buy"  >Proceed to pay</button>
+ 
+        <!--close button -->
+        <i id="cart-close" class='bx bx-x'></i>
+      </div>
+    </div>
+  </header>
+  <!--for item product-->
+ 
+  <section class="items">
+
+    <div class="product-container">
+
+      <div class="product">
+        <img src="cart1.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Egg Chicken Roll</h2>
+        <span class="price">100/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart2.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Chicken Kabab</h2>
+        <span class="price">250/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart4.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Fish Fry</h2>
+        <span class="price">120/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart3.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Mughlai Paratha</h2>
+        <span class="price">100/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart5.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Pizza 6"</h2>
+        <span class="price">320/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart6.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">White Sauce Pasta</h2>
+        <span class="price">300/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart7.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Pasta</h2>
+        <span class="price">300/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart8.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Burger</h2>
+        <span class="price">120/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart9.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">French Fries</h2>
+        <span class="price">80/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+
+      <div class="product">
+        <img src="cart10.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Chowmin</h2>
+        <span class="price">200/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart11.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Mixed Fried Rice</h2>
+        <span class="price">220/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart14.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Chicken Biriyani</h2>
+        <span class="price">350/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart12.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Chili Paneer</h2>
+        <span class="price">290/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart13.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Chili Gravy</h2>
+        <span class="price">350/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+      <div class="product">
+        <img src="cart15.jpg" alt="image" class="product-image">
+        <h2 class="tittleproduct">Prawn</h2>
+        <span class="price">420/-</span>
+        <i class='bx bx-cart-add'></i>
+      </div>
+    </div>
+  </section>
+  <script src="cart.js"></script>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
